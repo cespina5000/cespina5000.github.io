@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: docs
+
+  
+website:  
+  title: "Christopher Espina"
+  navbar:
+    right:
+      - text: About
+        href: about.qmd
+      - icon: github
+        href: https://github.com/
+      - text: Projects
+        href: Projects.qmd
+      - text: Resume
+        href: Resume.qmd
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+
+editor: visual
+

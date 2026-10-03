@@ -1,0 +1,16 @@
+---
+title: "Christopher Espina"
+image: headshot.jpg
+about
+  template: jolla
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/cespina5000
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/christopher-espina-6964bb325
+    - icon: inboxes
+      text: Contact
+      href: mailto: cespina@uark.edu
+---
