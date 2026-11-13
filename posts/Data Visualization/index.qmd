@@ -13,6 +13,8 @@ What is the distribution of 2D graphics among GPUs? The distribution was determi
 
 ![](images/clipboard-2162100579.jpeg)
 
+What is the relationship between TDP (Thermal Design Power) and Power Performance? To construct the scatter plot we plotted each GPU using its TDP measurement and its Power Performance score. We reformatted the Axis Titles to have better readability by making them all horizontal. We added a linear trendline and an R\^2 value to give more justification on the weakness of the relationship.
+
 ![](images/clipboard-19917733.jpeg)
 
 Which GPU manufacturer has the highest average performance? To create this bar chart, we used OpenCl scores of GPUs from Samsung, Qualcomm, Nvidia, Intel, ARM, Apple, AMD, and other manufacturers. We created a pivot table and moved all the manufacturers to the Values section to make the chart easier to visualize. The pivot table automatically created the average score for each manufacturer. There is a clear skew between manufacturers, with Nvidia and Apple having the highest average scores, indicating better general performance.
