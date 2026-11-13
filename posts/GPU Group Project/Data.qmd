@@ -1,8 +1,0 @@
----
-title: "Data"
-format: html
----
-
-<iframe width="800" height="1000" src="Group Project.pptx">
-
-</iframe>

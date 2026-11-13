@@ -1,0 +1,22 @@
+---
+title: "Data visualization for GPUs since 2009"
+author: "David Williams, Christopher Espina, Israel Klebanoff, Hudson Wood"
+date: "2026-11-13"
+categories: [news]
+---
+
+![](images/clipboard-669576388.jpeg)
+
+![](images/clipboard-2342931925.jpeg)
+
+What is the distribution of 2D graphics among GPUs? The distribution was determined by analyzing the frequincy of G2Dmark scores. After cleaning the data by changing the length of each of the columns to be 60 Units, the table ended up counting, and showing that most GPUs ended up having a smaller G2D mark thus leading to a Right skewed graph.
+
+![](images/clipboard-2162100579.jpeg)
+
+![](images/clipboard-19917733.jpeg)
+
+Which GPU manufacturer has the highest average performance? To create this bar chart, we used OpenCl scores of GPUs from Samsung, Qualcomm, Nvidia, Intel, ARM, Apple, AMD, and other manufacturers. We created a pivot table and moved all the manufacturers to the Values section to make the chart easier to visualize. The pivot table automatically created the average score for each manufacturer. There is a clear skew between manufacturers, with Nvidia and Apple having the highest average scores, indicating better general performance.
+
+![](images/clipboard-1937206597.jpeg)
+
+How has the average launch price of consumer GPU’s changed overtime?  In order to create this time-series graph, we used the testing date of different GPUs from 2009 to 2022 and the individual prices of those GPUs. I then created a pivot table and averaged the prices and made the x axis year and the y axis average price. I then added titles to better represent both axis, and finally after doing this the graph ended up showing a clear upward pattern showing a general increase in the price of GPUs over the years.
