@@ -13,7 +13,7 @@ What is the distribution of 2D graphics among GPUs? The distribution was determi
 
 ![](images/clipboard-2162100579.jpeg)
 
-What is the relationship between TDP (Thermal Design Power) and Power Performance? To construct the scatter plot we plotted each GPU using its TDP measurement and its Power Performance score. We reformatted the Axis Titles to have better readability by making them all horizontal. We added a linear trendline and an R\^2 value to give more justification on the weakness of the relationship.
+What is the relationship between TDP (Thermal Design Power) and Power Performance? To construct the scatter plot we plotted each GPU using its TDP measurement and its Power Performance score. We reformatted the Axis Titles to have better readability by making them all horizontal. We added a linear trendline and an R\^2 value to give more justification on the weakness of the relationship
 
 ![](images/clipboard-19917733.jpeg)
 
